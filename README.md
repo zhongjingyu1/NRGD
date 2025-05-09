@@ -37,13 +37,14 @@ python -u gen_noise_label.py --dataset voc12 --img_size 224 --partial_rate 0.35 
 ```
 ## Usage
 ### VOC2007
+If `noise_type` is part-dependent noise, it is `Direct`, otherwise it is `Indirect_1/Indirect_2/Indirect_3`.
 ```bash
 python main_DGCL.py \
 --dataset 'voc07' \
 --img_size 224/448 \
 --batch_size 32 \
 --partial_rate 0.1-0.5/0.35/0.7 \
---noise_type Direct/Indirect_1/Indirect_2/Indirect_3 \
+--noise_type Direct \
 --warm_up 5 \
 --batch_size 16 \
 --total_epoch 30 \
