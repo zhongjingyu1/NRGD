@@ -32,10 +32,13 @@ pre-processed-data/coco_1_0.35.npy
 You can also generate your own `Classification-based IDN Generation` by running the `gen_noise_label.py`:
 
 MS-COCO
+
 ```python -u gen_noise_label.py --dataset coco --img_size 224 --partial_rate 0.35 --noise_type 1 --total_epoch 5```
 
 VOC2007
+
 ```python -u gen_noise_label.py --dataset voc07 --img_size 224 --partial_rate 0.35 --noise_type 1 --total_epoch 10```
 
 VOC2012
+
 ```python -u gen_noise_label.py --dataset voc12 --img_size 224 --partial_rate 0.35 --noise_type 1 --total_epoch 10```
