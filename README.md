@@ -11,7 +11,7 @@ Please note that the generated json file is initially in `utils/prepare`, please
 
 ## Noise Generation
 In order to provide a fair comparison environment, we placed the various three noise labeling environments of the constructed VOC2007 and MS-COCO datasets in `pre-processed-data/`.
-### Part-dependent IDN Generation
+### 1. Part-dependent IDN Generation
 ```
 pre-processed-data/coco_0.1.npy
 ...
@@ -23,9 +23,11 @@ pre-processed-data/voc12_0.1.npy
 ...
 pre-processed-data/voc12_0.5.npy
 ```
-### Classification-based IDN Generation
+### 2. Classification-based IDN Generation
 In order to provide a fair comparison environment, we placed the various three noise labeling environments of the constructed VOC2007 and MS-COCO datasets in `pre-processed-data/`.
 For example, in the MS-COCO dataset for Type-I with a noise rate of 0.35, as follows:
 ```
 pre-processed-data/coco_1_0.35.npy
 ```
+You can also generate your own `Classification-based IDN Generation` by running the `gen_noise_label.py`:
+```python -u gen_noise_label.py --dataset coco --img_size 224 --partial_rate 0.35 --noise_type 1 --total_epoch 10```
