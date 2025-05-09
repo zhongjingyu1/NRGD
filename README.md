@@ -35,3 +35,16 @@ python -u gen_noise_label.py --dataset coco --img_size 224 --partial_rate 0.35 -
 python -u gen_noise_label.py --dataset voc07 --img_size 224 --partial_rate 0.35 --noise_type 1 --total_epoch 10
 python -u gen_noise_label.py --dataset voc12 --img_size 224 --partial_rate 0.35 --noise_type 1 --total_epoch 10
 ```
+## Usage
+### VOC2007
+```bash
+python main_DGCL.py \
+--dataset 'voc07' \
+--img_size 224/448 \
+--batch_size 32 \
+--partial_rate 0.1-0.5/0.35/0.7 \
+--noise_type Direct/Indirect_1/Indirect_2/Indirect_3 \
+--warm_up 5 \
+--batch_size 16 \
+--total_epoch 30 \
+```
