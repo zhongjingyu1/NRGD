@@ -24,23 +24,8 @@ pre-processed-data/voc12_0.1.npy
 pre-processed-data/voc12_0.5.npy
 ```
 ### Classification-based IDN Generation
+In order to provide a fair comparison environment, we placed the various three noise labeling environments of the constructed VOC2007 and MS-COCO datasets in `pre-processed-data/`.
+For example, in the MS-COCO dataset for Type-I with a noise rate of 0.35, as follows:
 ```
 pre-processed-data/coco_1_0.35.npy
-pre-processed-data/coco_1_0.7.npy
-pre-processed-data/coco_2_0.35.npy
-pre-processed-data/coco_2_0.7.npy
-pre-processed-data/coco_3_0.35.npy
-pre-processed-data/coco_3_0.7.npy
-pre-processed-data/voc07_1_0.35.npy
-pre-processed-data/voc07_1_0.7.npy
-pre-processed-data/voc07_2_0.35.npy
-pre-processed-data/voc07_2_0.7.npy
-pre-processed-data/voc07_3_0.35.npy
-pre-processed-data/voc07_3_0.7.npy
-pre-processed-data/voc12_1_0.35.npy
-pre-processed-data/voc12_1_0.7.npy
-pre-processed-data/voc12_2_0.35.npy
-pre-processed-data/voc12_2_0.7.npy
-pre-processed-data/voc12_3_0.35.npy
-pre-processed-data/voc12_3_0.7.npy
 ```
