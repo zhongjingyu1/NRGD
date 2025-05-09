@@ -14,6 +14,9 @@ pre-processed-data/coco_0.1.npy
 ...
 pre-processed-data/coco_0.5.npy
 pre-processed-data/voc07_0.1.npy
-pre-processed-data/voc07_0.2.npy
-pre-processed-data/voc07_0.4.npy
+...
+pre-processed-data/voc07_0.5.npy
+pre-processed-data/voc12_0.1.npy
+...
+pre-processed-data/voc12_0.5.npy
 ```
