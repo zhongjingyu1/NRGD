@@ -1,5 +1,4 @@
-# ID-PML
-Instance-Dependent Partial Multi-Label Learning via Decomposition of Candidate Labels Generation
+# Instance-Dependent Partial Multi-Label Learning via Decomposition of Candidate Labels Generation (DGCL)
 
 Then directly run the following command to generate json file (for implementation) of these datasets.
 ```
