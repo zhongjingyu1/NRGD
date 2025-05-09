@@ -10,9 +10,9 @@ Please note that the generated json file is initially in `utils/prepare`, please
 
 In order to provide a fair comparison environment, we placed the various three noise labeling environments of the constructed VOC2007 and MS-COCO datasets in pre-processed-data.
 ```
-pre-processed-data/coco_0.05.npy
 pre-processed-data/coco_0.1.npy
-pre-processed-data/coco_0.2.npy
+...
+pre-processed-data/coco_0.5.npy
 pre-processed-data/voc07_0.1.npy
 pre-processed-data/voc07_0.2.npy
 pre-processed-data/voc07_0.4.npy
