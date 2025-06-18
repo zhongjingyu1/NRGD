@@ -1,4 +1,4 @@
-# Instance-Dependent Partial Multi-Label Learning via Decomposition of Candidate Labels Generation (DGCL)
+## Instance-Dependent Partial Multi-Label Learning via Decomposition of Candidate Labels Generation (DGCL)
 
 ## Dataset
 To evaluate/train DGCL, first, the [VOC2012/2007](http://host.robots.ox.ac.uk/pascal/VOC/) and [MSCOCO](https://cocodataset.org/#download) datasets need to be downloaded. Then directly run the following command to generate json file (for implementation) of these datasets.
