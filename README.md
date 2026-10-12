@@ -2,7 +2,7 @@
 
 Official PyTorch Implementation
 
-The article "Correlation-Induced Negative Suppression Disambiguation Loss for Partial Multi-label Image Classification" has been accepted by **IEEE Transactions on Circuits and Systems for Video Technology (TCSVT 2025)**.
+The article "Noise-Resistant Candidate Label Generation Decomposition for Instance-Dependent Partial Multi-Label Learning" has been accepted by **IEEE Transactions on Neural Networks and Learning Systems (TNNLS 2026)**.
 
 > Ronghua Shang, Jingyu Zhong, Mengmeng Liu, Jie Feng
 > 
