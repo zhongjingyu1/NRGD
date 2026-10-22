@@ -2,7 +2,7 @@
 
 Official PyTorch Implementation
 
-The article "Noise-Resistant Candidate Label Generation Decomposition for Instance-Dependent Partial Multi-Label Learning" has been accepted by **IEEE Transactions on Neural Networks and Learning Systems (TNNLS 2026)**.
+The article "[Noise-Resistant Candidate Label Generation Decomposition for Instance-Dependent Partial Multi-Label Learning](https://ieeexplore.ieee.org/document/11744588)" has been accepted by **IEEE Transactions on Neural Networks and Learning Systems (TNNLS 2026)**.
 
 > Ronghua Shang, Jingyu Zhong, Mengmeng Liu, Jie Feng
 > 
